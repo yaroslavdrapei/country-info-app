@@ -12,3 +12,7 @@ export type FlagDataResponse = {
 export type NeighborsDataResponce = {
   borders: string[];
 };
+
+export type HolidayResponse = {
+  name: string;
+};
