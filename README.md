@@ -15,7 +15,13 @@
 git clone https://github.com//yaroslavdrapei/country-info-app
 ```
 
-### 2. Start the MongoDB Database using Docker
+### 2. Go inside the project folder and install all dependencies
+
+```bash
+npm i
+```
+
+### 3. Start the MongoDB Database using Docker
 
 Run this command in your console:
 
@@ -23,7 +29,7 @@ Run this command in your console:
 docker run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=securepassword mongo:latest  
 ```
 
-### 3. Start the app
+### 4. Start the app
 
 Run this command in your consode, it starts the application itself
 ```bash
